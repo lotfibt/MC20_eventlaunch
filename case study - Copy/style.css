@@ -1,0 +1,545 @@
+body {
+  background: rgb(0,62,51);
+background: linear-gradient(90deg, rgba(0,62,51,1) 0%, rgba(0,0,0,1) 100%);
+  background-image: url(images/maserati.png);
+  margin: 0;
+  padding: 0;
+  color: black;
+  font-size: 16px;
+  font-family: 'Lato', sans-serif;
+  text-align: left;
+}
+.slash-color {
+  color: #000000;
+}
+
+
+  .logo {
+   background-image: url(images/banner_bg2.png);
+  }
+  .logo img {
+    width: 300px;
+
+  }
+  .banner {
+    text-align: center;
+  }
+  
+  .btn-blue {
+    margin-top: 10px;
+  }
+  
+  .location {
+    margin-top: 60px;
+  }
+  
+  .location img {
+    width: 30px; /* Ajustez la taille de l'icône selon vos besoins */
+    display: inline-block;
+    vertical-align: middle; /* Ajuste la position verticale de l'image pour l'aligner au centre du texte */
+    margin-right: 10px; /* Espace entre l'icône et le texte */
+    margin-bottom: 1px;
+  }
+  
+  .location p {
+    display: inline-block;
+    vertical-align: middle; /* Ajuste la position verticale du texte pour l'aligner au centre de l'image */
+    margin-top: 50px;
+  }
+
+
+h1,
+h2,
+h3 {
+
+  font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+  color: rgb(1, 1, 1);
+  font-size: 40px;
+  margin-top: 2px;
+
+}
+
+h2 {
+  font-size: 28px;
+  text-align: center;
+  margin: 20px;
+  text-align: left;
+  color: #ffffff;
+}
+
+h3 {
+  font-size: 22px;
+  text-align: center;
+  color: #000000;
+}
+
+.registration-form p {
+  margin-top: 10px;
+}
+
+h4 {
+  color: #003e33;
+}
+
+
+a {
+  text-decoration: none;
+}
+
+.banner {
+  background: url(images/top2.png);
+  background-size: cover;
+  padding: 150px 0;
+  text-align: left;
+  text-justify: auto;
+  padding-left: 50px;
+}
+
+.banner p {
+  font-weight: 400;
+  font-size: 16px;
+  color: #000000;
+  margin-bottom: 50px;
+  opacity: 0.7;
+  text-align: left;
+}
+
+
+
+
+.btn-blue {
+  background-color: #030303;
+  color: white;
+  border-radius: 4px;
+  padding: 20px 50px;
+  font-size: 15px;
+  font-weight: 500;
+  font-weight: bolder;
+  margin-right: 100px;
+  margin-top: 10px;
+}
+
+.btn-blue:hover {
+  opacity: 0.7;
+}
+
+.btn-blue2:hover {
+  opacity: 0.7;
+}
+
+
+.card-white2:hover {
+  opacity: 0.7;
+}
+
+.container {
+  width: 900px;
+  margin: 20px auto;
+}
+
+.card-white promesse {
+  background-color: white;
+  padding: 0 24px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  margin: 0;
+  border-radius: 5px;
+}
+
+.card-white video {
+  padding: 0 24px;
+  margin: 0;
+  border-radius: 5px;
+}
+
+
+
+.footer {
+  background-image: linear-gradient(120deg, #c3fce0 0%, #8efcad 100%);
+  color: white;
+  padding: 50px 0;
+}
+
+.footer p {
+  font-size: 20px;
+}
+
+.cards-inline {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 16px;
+}
+
+#promesse {
+  text-align: left;
+}
+
+.card-white2 {
+  background-color: white;
+  padding: 24px;
+  box-shadow: 0 10px 20px rgba(0, 181, 78, 0.2);
+  margin: 8px;
+  border-radius: 5px;
+}
+
+
+
+.cards-inline2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 16px;
+}
+
+
+.card-white2 img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.container2 {
+  width: 900px;
+  margin: 20px auto;
+}
+
+#title2 {
+  margin-top: 50px;
+}
+
+#title3 {
+  color: #000000;
+}
+
+#body2 {
+  text-align: center;
+}
+
+.banner2 {
+  background: url(images/cover\ body.png);
+  background-size: cover;
+  padding: 150px 0;
+  text-align: left;
+  text-justify: auto;
+  padding-left: 50px;
+  margin-top: 50px;
+  padding-top: 20px;
+}
+
+
+
+
+#body3 {
+  color: white;
+  margin: 0;
+  margin-bottom: 50px;
+  font-size: 18px;
+}
+
+.list-inline {
+  margin-bottom: 30px;
+}
+
+
+.list-inline2 li {
+  display: inline;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f2f2f2;
+  padding: 20px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+}
+
+.footer-links {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  margin-right: 50px;
+  color: #000000;
+}
+
+
+
+.footer-links a {
+  margin-right: 20px;
+  font-size: 14px;
+  color: #000000;
+}
+
+.card-white3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 16px;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+.list-inline2 i {
+  font-size: 18px;
+  color: #000000;
+  letter-spacing: 30px;
+  text-align: left;
+}
+
+.list-inline2 i:hover {
+  opacity: 0.7;
+  ;
+}
+
+.footer-links:hover {
+  opacity: 0.7;
+}
+
+#video:hover {
+  opacity: 0.7;
+}
+
+span:hover {
+  opacity: 0.7;
+  text-decoration: underline;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  background-color: white;
+}
+
+.logo img {
+  height: 80px;
+}
+
+.card-white2 {
+  transition: 0.35;
+}
+
+.card-white2:hover {
+  transform: scale(1.1);
+}
+
+
+/* Breaking points */
+@media (max-width: 960px) {
+  .container {
+    width: 900px;
+  }
+
+  .cards-inline {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media (max-width: 720px) {
+  .container {
+    width: 680px;
+  }
+
+  .cards-inline {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+
+@media (max-width: 540px) {
+  .container {
+    width: 480px;
+  }
+
+  .cards-inline {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* styles.css */
+
+.container {
+  text-align: center;
+}
+
+.cards-inline {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-white {
+  background-color: white;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.icon {
+  width: 300px; /* Ajustez la taille de l'icône selon vos besoins */
+  margin-right: 20px;
+}
+
+#promesse {
+  list-style: disc; /* Utilisez 'circle' ou 'square' selon votre préférence */
+  margin-left: 20px;
+}
+
+/* Ajout de styles pour le formulaire */
+.registration-form form {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centrer les éléments horizontalement */
+}
+
+/* Ajout du style pour le conteneur du formulaire */
+.registration-form {
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin: 40px auto;
+  max-width: 600px;
+  position: relative;
+}
+
+/* Ajout du style pour l'effet vert transparent */
+.registration-form::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(90deg, rgba(0, 62, 51, 0.2) 0%, rgba(0, 0, 0, 0.2) 100%);
+  border-radius: 8px;
+}
+
+/* Ajout d'espace entre chaque champ du formulaire */
+.registration-form label,
+.registration-form input,
+.registration-form .language-options,
+.registration-form .glove-options,
+.registration-form button {
+  margin-bottom: 15px;
+}
+
+/* Ajout d'un espacement spécifique entre les champs "Nom du concessionnaire/de l'entreprise" et "Prénom (surnom le cas échéant)" */
+#companyName,
+#firstName {
+  margin-right: 15px;
+}
+
+/* Changement de la couleur du bouton "ENVOYER" */
+.registration-form button {
+  background-color: #000000;
+  color: #fff;
+  font-weight: bold; /* Rendre le texte en gras */
+  padding: 20px 30px; /* Ajuster la taille du bouton */
+}
+
+/* Changement de la couleur du bouton "ENVOYER" */
+.registration-form button {
+  background-color: #003e33;
+  color: #fff;
+  font-weight: bold; /* Rendre le texte en gras */
+  padding: 20px 30px; /* Ajuster la taille du bouton */
+  transition: background-color 0.3s; /* Ajout d'une transition pour l'effet hover */
+}
+
+/* Effet hover transparent sur le bouton "ENVOYER" */
+.registration-form button:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+
+/* ... (le code existant) ... */
+
+<!-- ... (le code existant) ... -->
+
+<style>
+    .styled-form {
+        max-width: 500px;
+        margin: 0 auto;
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .form-group {
+        margin-bottom: 20px;
+    }
+
+    label {
+        display: block;
+        font-weight: bold;
+        margin-bottom: 8px;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    input[type="checkbox"] {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+        margin-top: 6px;
+        box-sizing: border-box;
+    }
+
+    .language-options {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        align-items: center; /* Aligner les éléments verticalement */
+    }
+
+    .language-options label {
+        flex: 1; /* Occupera l'espace disponible */
+        display: flex;
+        align-items: center; /* Aligner les éléments verticalement */
+    }
+
+    .glove-options {
+        display: flex;
+        gap: 10px;
+    }
+
+    button {
+        background-color: #000000;
+        color: #fff;
+        font-weight: bold;
+        padding: 15px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+
+    button:hover {
+        background-color: rgba(0, 0, 0, 0.8);
+    }
+</style>
+
+<style>
+
+#send {
+  background-color: #000000;
+  color: #fff;
+  font-weight: bold;
+  padding: 20px 30px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+#send:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+</style>
